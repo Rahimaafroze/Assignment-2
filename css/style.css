@@ -46,8 +46,12 @@ nav{
     align-items: flex-start;
 }
 .influencer-right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
+   
 }
 .button{
     background-color: #E02C6D;
@@ -56,6 +60,7 @@ nav{
     padding: 10px 24px;
     border-radius: 15px;
     font-weight: 700;
+    cursor: pointer;
 }
 .fa-arrow-right{
     margin-left: 5px;
@@ -64,7 +69,44 @@ nav{
     width: 440px;
     height: 400px;
 }
-h1,h3,p{
+h1,h3,h2,p{
     color: #3a3a3a;
     padding-bottom: 16px;
+}
+/* Popular collection/ Card Styles */
+.popular-collection {
+    margin-top: 50px;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.card .banner img{
+    height: 255px;
+    width: 300px;
+}
+.card-title{
+    color: #18191f;
+    font-weight: 550;
+}
+.fillcolor{
+    color: #fbb200;
+    font-size: 11px;
+}
+.ratings{
+    display: flex;
+    
+    
+}
+.ratings p{
+    font-size: 14px;
+    padding: 2px;
+    
+    
+}
+.card-details{
+    color: #787885;
+    font-size: 14px;
+    font-weight: 700;
 }
