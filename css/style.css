@@ -102,9 +102,7 @@ p{
     grid-row-gap: 10px;
    
 }
-.product-cards:hover{
-    
-}
+
 .card{
     
     border-radius: 5px;
@@ -149,6 +147,19 @@ p{
     color: #E02C6D;
     font-weight: 700;
 }
+/* Sponsors Style  */
+.sponsor{
+    
+    text-align: center;
+    border: 5px solid #fbb200 ;
+    border-bottom-style: none;
+    border-top-style: none;
+}
+
+.sponsor span{
+    color: #fbb200;
+}
+
 
 /* Footer style  */
 footer{
