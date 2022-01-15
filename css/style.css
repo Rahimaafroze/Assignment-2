@@ -137,3 +137,24 @@ h1,h3,h2,p{
     color: #E02C6D;
     font-weight: 700;
 }
+
+/* Footer style  */
+footer{
+    text-align: center;
+    height: 150px;
+    background-color: black;
+    color: white;
+}
+.footer-text  {
+    color: white;
+    padding-top: 10px;
+}
+.footer-text p{
+    font-size: 14px;
+}
+.media{
+    
+    padding: 10px;
+    height: 13px;
+    width: 15px;
+}
