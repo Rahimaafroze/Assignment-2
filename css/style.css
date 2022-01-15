@@ -5,7 +5,9 @@
 }
 body{
     font-family: 'Rubik', sans-serif;
+    
 }
+/* Nav style  */
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -28,4 +30,41 @@ nav{
     text-decoration: none;
     color: black;
     padding: 6px;
+}
+
+/* Influencer Styles */
+.influencer {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.influencer-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.influencer-right{
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
+.button{
+    background-color: #E02C6D;
+    color: white;
+    border: 2px solid #E02C6D;
+    padding: 10px 24px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+.fa-arrow-right{
+    margin-left: 5px;
+}
+.influencer-right img{
+    width: 440px;
+    height: 400px;
+}
+h1,h3,p{
+    color: #3a3a3a;
+    padding-bottom: 16px;
 }
