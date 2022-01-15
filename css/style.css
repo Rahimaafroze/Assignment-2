@@ -132,3 +132,8 @@ h1,h3,h2,p{
     font-size: 14px;
     font-weight: 700;
 }
+.see-more{
+    text-align: end;
+    color: #E02C6D;
+    font-weight: 700;
+}
