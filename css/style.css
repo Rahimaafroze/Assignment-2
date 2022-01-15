@@ -6,6 +6,7 @@
 body{
     font-family: 'Rubik', sans-serif;
     
+    
 }
 /* Nav style  */
 .container{
@@ -76,8 +77,29 @@ h1,h3,h2,p{
 /* Popular collection/ Card Styles */
 .popular-collection {
     margin-top: 50px;
+    
+   
 }
+/* .popular-collection{
+    display: grid;
+    
+    grid-template-columns: repeat(3,1fr);
+}  */
 
+.product-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px ;
+    grid-row-gap: 10px;
+   
+}
+.card{
+    
+    border-radius: 5px;
+    border-style: none;
+    /* box-shadow: rgba(0,0, 0, .6); */
+    padding: 10px;
+}
 .card-header{
     text-align: center;
 }
