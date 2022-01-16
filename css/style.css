@@ -9,11 +9,17 @@ body{
     
     
 }
+/* global css */
+img{
+    width: 100%;
+    display: block;
+}
 /* Nav style  */
 .container{
+    
     max-width: 1200px;
     margin: 0 auto;
-    /* padding: 0 30px; */
+    
 }
 nav{
     display: flex;
@@ -34,11 +40,12 @@ nav{
     padding: 6px;
 }
 
-/* Influencer Styles */
+/* Journey-Influencer Styles */
 .influencer {
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    display: flex;
+    
 }
 
 .influencer-left{
@@ -183,6 +190,7 @@ span{
 
 /* Footer style  */
 footer{
+    
     text-align: center;
     height: 150px;
     background-color: black;
@@ -201,3 +209,38 @@ footer{
     height: 13px;
     width: 15px;
 }
+
+
+/* Media queries */
+/* Tablet device */
+@media only screen and (max-width: 800px) {
+    .container{
+        max-width: 100%;
+        padding: 0 40px;
+    }
+    .product-cards, .sponsor{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    
+}
+/* Mobile device */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .journey, .popular-collection, .sponsor-box{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .influencer{
+        flex-direction: column;
+    }
+    .product-cards, .sponsor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
