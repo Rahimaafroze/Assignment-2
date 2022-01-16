@@ -9,12 +9,20 @@ body{
     
     
 }
-/* global css */
+/* * * * * * * * * * Common Style  * * * * * * * * * */
+h1,h3,h2,p{
+    color: #3a3a3a;
+    padding-bottom: 16px;
+}
+p{
+    font-size: 14px;
+}
+/* * * * * * * * * * global css * * * * * * * * * */
 img{
     width: 100%;
     display: block;
 }
-/* Nav style  */
+/* * * * * * * * * * Nav style * * * * * * * * * */
 .container{
     
     max-width: 1200px;
@@ -40,10 +48,8 @@ nav{
     padding: 6px;
 }
 
-/* Journey-Influencer Styles */
+/* * * * * * * * * * Journey-Influencer Styles * * * * * * * * * */
 .influencer {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
     display: flex;
     
 }
@@ -63,10 +69,7 @@ nav{
 
    
 }
-.animation-img:hover{
-    transform: scale(1.1) rotate(30deg);
-    transition: transform 2s ease-in;
-}
+
 .button{
     background-color: #E02C6D;
     color: white;
@@ -83,21 +86,18 @@ nav{
     width: 440px;
     height: 400px;
 }
-h1,h3,h2,p{
-    color: #3a3a3a;
-    padding-bottom: 16px;
+.animation-img:hover{
+    transform: scale(1.1) rotate(30deg);
+    transition: transform 2s ease-in;
 }
-p{
-    font-size: 14px;
-}
-/* Popular collection/ Card Styles */
+
+/* * * * * * * * * * Popular collection/ Card Styles * * * * * * * * * */
 .popular-collection {
-    margin-top: 60px;
-
-   
+    margin-top: 60px;   
 }
-
-
+.card-header{
+    text-align: center;
+}
 
 .product-cards{
     display: grid;
@@ -112,11 +112,7 @@ p{
     background-color: white;
     border-radius: 10px;
     border-style: none;
-    /* box-shadow: 2px black; */
     padding: 30px;
-}
-.card-header{
-    text-align: center;
 }
 
 .card .banner img{
@@ -153,7 +149,7 @@ p{
     color: #E02C6D;
     font-weight: 700;
 }
-/* Sponsors Style  */
+/* * * * * * * * * * Sponsors Style  * * * * * * * * * */
 .sponsor-box{   
     text-align: center; 
     margin-top: 15px;
@@ -164,7 +160,6 @@ span{
 .sponsor{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* justify-items: center; */
     grid-column-gap: 10px ;
     
 }
@@ -188,9 +183,8 @@ span{
 
 
 
-/* Footer style  */
-footer{
-    
+/* * * * * * * * * * Footer style * * * * * * * * *  */
+footer{   
     text-align: center;
     height: 150px;
     background-color: black;
@@ -211,8 +205,8 @@ footer{
 }
 
 
-/* Media queries */
-/* Tablet device */
+/* * * * * * * * * * Media queries * * * * * * * * * */
+/* * * * * * * * * *Tablet device * * * * * * * * * */
 @media only screen and (max-width: 800px) {
     .container{
         max-width: 100%;
@@ -224,7 +218,7 @@ footer{
 
     
 }
-/* Mobile device */
+/* * * * * * * * * * Mobile device * * * * * * * * * */
 @media only screen and (max-width:688px) {
     .container{
         width: 100%;
