@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Rubik', sans-serif;
+    background-color: blanchedalmond;
     
     
 }
@@ -84,31 +85,28 @@ p{
 }
 /* Popular collection/ Card Styles */
 .popular-collection {
-    margin-top: 50px;
+    margin-top: 60px;
 
    
 }
 
-/* .popular-collection{
-    display: grid;
-    
-    grid-template-columns: repeat(3,1fr);
-}  */
+
 
 .product-cards{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 10px ;
     grid-row-gap: 10px;
+
    
 }
 
-.card{
-    
-    border-radius: 5px;
+.card , .sponsor-card{
+    background-color: white;
+    border-radius: 10px;
     border-style: none;
-    /* box-shadow: rgba(0,0, 0, .6); */
-    padding: 10px;
+    box-shadow: 2px black;
+    padding: 30px;
 }
 .card-header{
     text-align: center;
@@ -143,22 +141,37 @@ p{
     font-weight: 700;
 }
 .see-more{
+    margin-top: 10px;
     text-align: end;
     color: #E02C6D;
     font-weight: 700;
 }
 /* Sponsors Style  */
+.sponsor-box{   
+    text-align: center; 
+}   
+span{
+    color: #E02C6D;
+}
 .sponsor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* justify-items: center; */
+    grid-column-gap: 10px ;
     
-    text-align: center;
-    border: 5px solid #fbb200 ;
-    border-bottom-style: none;
-    border-top-style: none;
+}
+.sponsor-photo img{
+    
+    width: 300px;
+    height: 255px;
+    margin: 10px 15px;
+    border-radius: 5px;
+
 }
 
-.sponsor span{
-    color: #fbb200;
-}
+    
+
+
 
 
 /* Footer style  */
